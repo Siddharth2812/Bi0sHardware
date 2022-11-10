@@ -6,6 +6,8 @@ const FounderSection = () => (
     <section className="p-3">
         <div>
             <div className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6">Founder & Chief Mentor</div>
+
+            <Image className="pb-4" alt="Vipin Pavithran" src="/vipinsir.jpeg" width={400} height={400}/>
             <div className="text-lg md:text-xl lg:text-2xl opacity-80 font-semibold mb-2">
                 Th3_M3nt0r
             </div>

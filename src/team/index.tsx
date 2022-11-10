@@ -8,7 +8,7 @@ import MemberSection from "./section";
 import STUDENTS from '../data/students';
 import Cofounders from '../data/Cofounder';
 import ALUMNI from '../data/alumni';
-import STAFF from '../data/staff';
+import MENTORS from '../data/mentors';
 import MemberCard from "./card";
 import FounderSection from "./founder";
 
@@ -70,7 +70,7 @@ const TeamPage = () => {
                         <MemberSection
                             id="mentors"
                             title="Mentors"
-                            members={filterMembers(STAFF)}
+                            members={filterMembers(MENTORS)}
                         />
                     )}
                     {(selection === 'ALL' || selection === 'STUDENTS') && (
