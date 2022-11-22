@@ -45,7 +45,7 @@ const HeaderSection = styled.header`
     line-height: 1.35;
   }
 `;
-const FieldsofResearch = ({ text, name = null, desc = null }) => (
+const FieldsofResearch = () => (
   <HeaderSection>
     <div className="grid ">
       <div>
