@@ -27,7 +27,9 @@ html, body {
   display: flex;
   justify-content: center;
 }
-
+.logo{
+  color: darkgrey;
+}
 .content-shrinker {
   display: flex;
   justify-content: start;
@@ -61,4 +63,9 @@ html, body {
 ::selection {
   background: #b4ff39;
   color: #170f1e;
+}
+.shadow:hover{
+    text-shadow: rgb(127 191 0 /1) -1px -1px 6px, rgb(124 127 255 / 60%) 1px 1px 6px;
+    overflow-wrap: break-word;
+  
 }
