@@ -1,7 +1,6 @@
 const Achievements = [
     {
         type: 'CTF',
-        // image : <img src="https://i.picsum.photos/id/423/536/354.jpg?hmac=8jLhwgXq-9hoMVevDrQOg3u9J2QridxrcXKfOEKYONc"></img>,
         infoText: '#1 @ DomeCTF at c0c0n 2022',
         text: <>
             Our members <b>Adithya Suresh Kumar (@amun_rha)</b> and <b>Rohit Narayanan (@Lu513n)</b> won the
